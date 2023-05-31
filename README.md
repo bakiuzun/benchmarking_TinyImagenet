@@ -32,4 +32,4 @@ To perform evaluation you'll need to execute the main.py script, the script requ
 NOTE: script for the visualization is in plot_scripts folder.  
 ### 1.0 Visualize. 
 To visualise the csv file that has been saved from the evaluation you'll need to run the main.py scripts.  
-<br> I Added manually the acc and flops columns for each csv file </br>. 
+<b> I Added manually the acc and flops columns for each csv file. The accuracy can be found on a file that will be created by the main.py script, for the flops you can run flops.py </b> 
