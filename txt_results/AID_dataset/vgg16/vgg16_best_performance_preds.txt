@@ -1,0 +1,9 @@
+Meilleur Performances de prédiction pour le modèle vgg16
+TFLite Modele Quantifier 
+Modele vgg16,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized float32,Pruned False,
+GPU: a6000 Preds:324.75s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 17.92, Mean GPU Watt: 16.17, Min GPU Watt: 15.41 Max CPU: 43.6, Mean CPU: 10.62,Min CPU:3.0 Memory Total:  49140 MiB
+
+Modele Base (non tflite) 
+Modele vgg16,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: False, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+GPU: a6000 Preds:63.15s Max GPU: 6,Mean:4.83,Min:0 Max GPU Watt: 81.13, Mean GPU Watt: 75.49, Min GPU Watt: 64.81 Max CPU: 38.4, Mean CPU: 11.08,Min CPU:3.1 Memory Total:  49140 MiB
+

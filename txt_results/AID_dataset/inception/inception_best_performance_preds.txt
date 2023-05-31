@@ -1,0 +1,9 @@
+Meilleur Performances de prédiction pour le modèle inception
+TFLite Modele Quantifier 
+Modele inceptionv3,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized full-int,Pruned False,
+GPU: a6000 Preds:78.32s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 17.82, Mean GPU Watt: 16.21, Min GPU Watt: 15.58 Max CPU: 39.1, Mean CPU: 9.81,Min CPU:3.0 Memory Total:  49140 MiB
+
+Modele Base (non tflite) 
+Modele inceptionv3,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: False, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+GPU: a6000 Preds:73.13s Max GPU: 45,Mean:6.5,Min:0 Max GPU Watt: 96.43, Mean GPU Watt: 70.75, Min GPU Watt: 64.35 Max CPU: 38.1, Mean CPU: 9.79,Min CPU:3.1 Memory Total:  49140 MiB
+

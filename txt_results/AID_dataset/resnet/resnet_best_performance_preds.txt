@@ -1,0 +1,9 @@
+Meilleur Performances de prédiction pour le modèle resnet
+TFLite Modele Quantifier 
+Modele resnet,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized full-int,Pruned False,
+GPU: a6000 Preds:102.04s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 22.18, Mean GPU Watt: 16.63, Min GPU Watt: 15.77 Max CPU: 38.4, Mean CPU: 10.5,Min CPU:3.1 Memory Total:  49140 MiB
+
+Modele Base (non tflite) 
+Modele resnet,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: False, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+GPU: a6000 Preds:67.75s Max GPU: 6,Mean:4.54,Min:0 Max GPU Watt: 75.07, Mean GPU Watt: 71.86, Min GPU Watt: 66.32 Max CPU: 38.5, Mean CPU: 10.41,Min CPU:3.2 Memory Total:  49140 MiB
+

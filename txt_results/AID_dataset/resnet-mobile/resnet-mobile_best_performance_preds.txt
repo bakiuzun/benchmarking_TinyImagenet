@@ -1,0 +1,9 @@
+Meilleur Performances de prédiction pour le modèle resnet-mobile
+TFLite Modele Quantifier 
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized full-int,Pruned False,
+GPU: a6000 Preds:18.53s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 40.1, Mean GPU Watt: 18.13, Min GPU Watt: 16.24 Max CPU: 32.2, Mean CPU: 11.52,Min CPU:3.1 Memory Total:  49140 MiB
+
+Modele Base (non tflite) 
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: False, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+GPU: a6000 Preds:66.62s Max GPU: 6,Mean:3.05,Min:0 Max GPU Watt: 69.99, Mean GPU Watt: 67.89, Min GPU Watt: 64.79 Max CPU: 36.0, Mean CPU: 9.64,Min CPU:3.2 Memory Total:  49140 MiB
+

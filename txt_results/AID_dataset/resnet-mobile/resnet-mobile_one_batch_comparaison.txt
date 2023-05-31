@@ -1,0 +1,71 @@
+Comparaison, Titan RTX 2080 a6000 Pour le modèle resnet-mobile 
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: False, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+Max utilisation du gpu en  atteint par Titan  RTX 2080 = 20 
+Min utilisation du gpu en  atteint par Titan  RTX 2080  a6000 = 0 
+Max utilisation du gpu en Watt atteint par  RTX 2080 = 79.54 
+Min utilisation du gpu en Watt atteint par Titan  = 57.85 
+Max utilisation du cpu atteint par  a6000 = 36.0 
+Min utilisation du cpu atteint par  RTX 2080  = 1.4 
+Max Temps de prédiction atteint par  RTX 2080 = 100.04 
+Min Temps de prédiction atteint par  a6000 = 66.62 
+GPU: Titan Preds:99.42s Max GPU: 20,Mean:2.76,Min:0 Max GPU Watt: 74.58, Mean GPU Watt: 59.14, Min GPU Watt: 57.85 Max CPU: 10.5, Mean CPU: 9.15,Min CPU:8.7 Memory Total:  24576 MiB
+GPU: a6000 Preds:66.62s Max GPU: 6,Mean:3.05,Min:0 Max GPU Watt: 69.99, Mean GPU Watt: 67.89, Min GPU Watt: 64.79 Max CPU: 36.0, Mean CPU: 9.64,Min CPU:3.2 Memory Total:  49140 MiB
+GPU: rtx2080 Preds:100.04s Max GPU: 20,Mean:2.25,Min:0 Max GPU Watt: 79.54, Mean GPU Watt: 64.41, Min GPU Watt: 63.14 Max CPU: 9.6, Mean CPU: 6.55,Min CPU:1.4 Memory Total:  11264 MiB
+
+
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized False,Pruned False,
+Max utilisation du gpu en  atteint par Titan  RTX 2080 a6000 = 0 
+Min utilisation du gpu en  atteint par Titan  RTX 2080  a6000 = 0 
+Max utilisation du gpu en Watt atteint par  RTX 2080 = 21.66 
+Min utilisation du gpu en Watt atteint par Titan  = 9.14 
+Max utilisation du cpu atteint par  a6000 = 36.9 
+Min utilisation du cpu atteint par  RTX 2080  = 2.4 
+Max Temps de prédiction atteint par  RTX 2080 = 171.81 
+Min Temps de prédiction atteint par  a6000 = 80.86 
+GPU: Titan Preds:121.31s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 13.99, Mean GPU Watt: 10.65, Min GPU Watt: 9.14 Max CPU: 11.4, Mean CPU: 10.14,Min CPU:8.5 Memory Total:  24576 MiB
+GPU: a6000 Preds:80.86s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 17.59, Mean GPU Watt: 15.96, Min GPU Watt: 15.4 Max CPU: 36.9, Mean CPU: 10.55,Min CPU:3.0 Memory Total:  49140 MiB
+GPU: rtx2080 Preds:171.81s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 21.66, Mean GPU Watt: 20.39, Min GPU Watt: 18.75 Max CPU: 10.1, Mean CPU: 6.99,Min CPU:2.4 Memory Total:  11264 MiB
+
+
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized float16,Pruned False,
+Max utilisation du gpu en  atteint par Titan  RTX 2080 a6000 = 0 
+Min utilisation du gpu en  atteint par Titan  RTX 2080  a6000 = 0 
+Max utilisation du gpu en Watt atteint par  RTX 2080 = 19.82 
+Min utilisation du gpu en Watt atteint par Titan  = 9.29 
+Max utilisation du cpu atteint par  a6000 = 34.5 
+Min utilisation du cpu atteint par  a6000 = 3.1 
+Max Temps de prédiction atteint par  RTX 2080 = 35.35 
+Min Temps de prédiction atteint par  a6000 = 21.67 
+GPU: Titan Preds:34.21s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 10.41, Mean GPU Watt: 9.85, Min GPU Watt: 9.29 Max CPU: 9.9, Mean CPU: 8.99,Min CPU:8.6 Memory Total:  24576 MiB
+GPU: a6000 Preds:21.67s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 18.37, Mean GPU Watt: 16.57, Min GPU Watt: 15.88 Max CPU: 34.5, Mean CPU: 12.07,Min CPU:3.1 Memory Total:  49140 MiB
+GPU: rtx2080 Preds:35.35s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 19.82, Mean GPU Watt: 19.22, Min GPU Watt: 18.61 Max CPU: 7.8, Mean CPU: 6.84,Min CPU:6.6 Memory Total:  11264 MiB
+
+
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized float32,Pruned False,
+Max utilisation du gpu en  atteint par Titan  RTX 2080 a6000 = 0 
+Min utilisation du gpu en  atteint par Titan  RTX 2080  a6000 = 0 
+Max utilisation du gpu en Watt atteint par  RTX 2080 = 20.47 
+Min utilisation du gpu en Watt atteint par Titan  = 9.35 
+Max utilisation du cpu atteint par  a6000 = 35.8 
+Min utilisation du cpu atteint par  a6000 = 3.1 
+Max Temps de prédiction atteint par  RTX 2080 = 32.13 
+Min Temps de prédiction atteint par  a6000 = 19.58 
+GPU: Titan Preds:31.1s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 10.84, Mean GPU Watt: 10.0, Min GPU Watt: 9.35 Max CPU: 9.6, Mean CPU: 8.96,Min CPU:8.5 Memory Total:  24576 MiB
+GPU: a6000 Preds:19.58s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 17.99, Mean GPU Watt: 16.48, Min GPU Watt: 16.0 Max CPU: 35.8, Mean CPU: 10.76,Min CPU:3.1 Memory Total:  49140 MiB
+GPU: rtx2080 Preds:32.13s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 20.47, Mean GPU Watt: 19.22, Min GPU Watt: 18.5 Max CPU: 7.9, Mean CPU: 6.83,Min CPU:6.5 Memory Total:  11264 MiB
+
+
+Modele resnet-mobile,GPU 1,CPU number: 4, Memoire GPU: 32G,Only cpu: True, Per-Image: True,Batch size 1500,Quantized full-int,Pruned False,
+Max utilisation du gpu en  atteint par Titan  RTX 2080 a6000 = 0 
+Min utilisation du gpu en  atteint par Titan  RTX 2080  a6000 = 0 
+Max utilisation du gpu en Watt atteint par  a6000 = 40.1 
+Min utilisation du gpu en Watt atteint par Titan  = 9.45 
+Max utilisation du cpu atteint par  a6000 = 32.2 
+Min utilisation du cpu atteint par  a6000 = 3.1 
+Max Temps de prédiction atteint par Titan  RTX 2080 = 32.13 
+Min Temps de prédiction atteint par  a6000 = 18.53 
+GPU: Titan Preds:32.13s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 10.85, Mean GPU Watt: 10.23, Min GPU Watt: 9.45 Max CPU: 9.5, Mean CPU: 8.89,Min CPU:8.5 Memory Total:  24576 MiB
+GPU: a6000 Preds:18.53s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 40.1, Mean GPU Watt: 18.13, Min GPU Watt: 16.24 Max CPU: 32.2, Mean CPU: 11.52,Min CPU:3.1 Memory Total:  49140 MiB
+GPU: rtx2080 Preds:32.13s Max GPU: 0,Mean:0.0,Min:0 Max GPU Watt: 20.12, Mean GPU Watt: 19.61, Min GPU Watt: 18.86 Max CPU: 7.5, Mean CPU: 6.72,Min CPU:6.3 Memory Total:  11264 MiB
+
+
